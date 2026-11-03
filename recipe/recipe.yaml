@@ -70,7 +70,9 @@ tests:
 
 about:
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file:
+    - LICENSE
+    - COPYRIGHT
   summary: Python bindings for the PVAccess network client and server.
   homepage: https://github.com/epics-base/p4p
   repository: https://github.com/epics-base/p4p
