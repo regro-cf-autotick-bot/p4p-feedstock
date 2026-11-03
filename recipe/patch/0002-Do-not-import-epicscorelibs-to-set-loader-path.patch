@@ -1,7 +1,7 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Anders Lindh Olsson <anders.lindh.olsson@gmail.com>
 Date: Tue, 3 Nov 2026 11:31:07 +0100
-Subject: [PATCH 2/2] Do not import `epicscorelibs` to set loader path
+Subject: [PATCH 2/3] Do not import `epicscorelibs` to set loader path
 
 Only needed for the PyPI wheels.
 ---
