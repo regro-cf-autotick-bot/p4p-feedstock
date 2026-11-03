@@ -12,8 +12,8 @@ source:
   - url: https://github.com/epics-base/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
     sha256: 575197a4c7032a3cee5dff2c16a34077654e34938340501ce0de1116742b2526
     patches:
-      - patch/update_setup_config.patch
-      - patch/remove_pvxslibs.patch
+      - patch/0001-Build-against-conda-forge-epics-base-and-pvxs.patch
+      - patch/0002-Do-not-import-epicscorelibs-to-set-loader-path.patch
   - path: src
 
 build:
